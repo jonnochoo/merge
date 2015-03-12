@@ -1,0 +1,20 @@
+{
+  "name": "merge",
+  "version": "0.0.0",
+  "description": "used to merge multiple CSV files to a unified data structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jonathon Choo",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "0.0.9",
+    "csv-stringify": "0.0.6",
+    "stream-transform": "0.0.7"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.1"
+  }
+}
